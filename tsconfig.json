@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "removeComments": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "resolveJsonModule": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/**/*"]
+}
