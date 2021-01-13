@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+*, html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+p {
+    margin: 1.2rem 0;
+}
+
+a {
+    color: #8c1fad;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
